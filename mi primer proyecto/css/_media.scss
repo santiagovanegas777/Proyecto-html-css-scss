@@ -1,0 +1,36 @@
+@media (min-width: 768px){
+    .header{
+        &_menu {
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
+    }
+    }
+    .liaside{
+        display: flex;
+        justify-content: center;
+    }
+
+    .tituloaside{
+        text-align: center;
+        font-size: 80px;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 80px;
+    }
+    .main_section-article{
+        padding-left: 200px;
+    }
+       h3{
+        font-size: 30px;
+       }
+       p{
+        font-size: 25px;
+       }
+       .footer{
+        font-size: 40px;
+       }
+}
+@include desktop;

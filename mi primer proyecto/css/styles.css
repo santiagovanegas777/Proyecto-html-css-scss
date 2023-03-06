@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:pink;
+}
+
+.header {
+    height: 30%;
+    display: inline-block;
+}
+
+.header_logo-img {
+    width: 100%;
+}
+
+.header_menu {
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.header_menu-ul {
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+.header_menu-ul--li{
+    border: 2px solid black;
+    margin: 3px;
+    text-align: center;
+    padding: 2px;
+    color: black;
+
+}
+.main{
+   
+ 
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 1fr 1fr;
+
+
+}
+.liaside{
+    display: inline-block;
+    margin: 14px;
+    padding: 1px;
+    border: 7px solid white;
+    color:pink;
+    background-color: black;
+
+}
+.tituloaside{
+   
+    font-size: 65px;
+}
+.main_aside{
+    display: flex;
+    flex-direction: column;
+
+}
+.main_aside-article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 75%;
+
+}
+
+.articleofertas{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+
+}
+.imgaside{
+    width: 40%;
+    height: 84%;
+}
+.main_section-article{
+    margin: 15px;
+}
+h1{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.imgsection{
+    margin: 27px;
+}
+.footer{
+   display: flex;
+   flex-direction: column;
+   margin: 5px;
+}
+a{
+    text-decoration: none;
+
+}
+.enlaceaside{
+    color: pink;
+}

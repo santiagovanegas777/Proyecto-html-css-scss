@@ -1,0 +1,36 @@
+$backgroundcolor: black;
+$footercolor: white;
+$backgroundcolor2: violet;
+
+@mixin desktop {
+    @media (min-width:1200px) {
+        .header {
+            width: 100%;
+        }
+
+        .main {
+            width: 100%;
+
+        }
+
+        .ulmenu {
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+
+
+        }
+
+        .main_section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+
+
+        }
+
+        h1{
+            grid-column: span 2;
+        }
+    }
+    }
